@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: 'poppins sans-sarif';
+}
+
+/* navbar css */
+.nav-link{
+    font-size: 20px;
+    color: #333 !important;
+}
+.navbar-nav .nav-item a.active,a:hover {
+    color: #3763eb !important;
+}
+#navbar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10;
+}
+/* slider */
+
+.slider-container {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    
+}
+.slider-heading{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.slider-para{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff !important;
+}
+.slider-btn{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    padding: 14px 40px;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+/* section-1 */
+
+.section-title h3{
+    color: #3763eb;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.sub-title h1{
+    font-weight: 700;
+}
+.card{
+    padding: 50px;
+}
+
+ .feature-heading h3{
+font-size: 30px;
+font-weight: 700;
+line-height: 20px;
+
+}
+.feature-icon{
+    font-size: xx-large;
+    color: #3763eb;
+}
+i {
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #3763eb;
+    padding: 20px;
+  }
+  i:hover{
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+    color: #fff;
+  }
+  .card:hover i{
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+    color: #fff;
+  }
+  .card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+/* section-2 */
+
+.section-2{
+    margin-top: 12%;
+    background-color: #eff2f9;
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+.about-us-img{
+    
+    padding-bottom: 40px;
+    position: relative;
+}
+.about-us-content{
+    margin-top: 10%;
+}
+.section-2 .main-heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3763eb;
+    margin-bottom: 5px;
+}
+.heading-about-1{
+    color: black;
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    color: #6a7c92;
+}
+.heading-about-30k h1,.heading-about-40k h1{
+    color: #3763eb;
+    margin-top: 10%;
+    font-weight: 700;
+}
+.about-experience p{
+    color: #fff;
+}
+.about-experience h3{
+    color: #fff;
+    font-size: 30px;
+
+}
+  .about-experience {
+    position: absolute;
+    padding: 40px 20px;
+    color: #fff;
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+    border-radius: 30px;
+    width: 300px;
+    border: 5px solid #fff;
+    right: 0;
+    transform: translateY(-80%)
+    
+  }
+  
+  .about-experience h3,
+  .about-experience p {
+    margin: 0;
+  }
+
+
+  /* services section  */
+
+  .services-heading h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    
+    }
+    .services-icon{
+        font-size: xx-large;
+        color: #3763eb;
+    }
