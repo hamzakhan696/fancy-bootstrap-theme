@@ -240,5 +240,67 @@ p{
     margin: 0 5px;
     color: #fff;
     font-size: 15px;
-    padding: 6px;
+    padding: 8px;
   }
+
+
+
+  /* section-6 */
+  .section-6{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+.address-content,.contact-content,.shedule-content{
+    padding: 2%;
+}
+  .card-section6{
+padding: 8px;
+width: 100%;
+  }
+  .contact-info ,.address-info,.shedule-info{
+    margin-left: 4%;
+  }
+  .contact-icon i,.address-icon i,.shedule-icon i{
+    color: #fff;
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+  }
+  .sec-6-main-heading{
+    color: #3763eb;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .form-control{
+    padding: 30px;
+    color: #333;
+  }
+
+  .form-btn{
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 18px 90px;
+    border-radius: 20px;
+  }
+  
+
+  /* section-7 */
+.section-7{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+}
+.newsletter-heading{
+    color: #fff;
+}
+.newsletter-email input{
+    border-radius: 20px;
+}
+.section-7 i{
+    padding: 15px;
+    color: #fff;
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+    border: none;
+}
+
+  
