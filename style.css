@@ -194,3 +194,51 @@ p{
         font-size: xx-large;
         color: #3763eb;
     }
+/* section4 */
+
+.section-4{
+    padding: 5%;
+    background-color: #eff2f9;
+}
+.section-4 .card{
+    padding: 0% !important;
+}
+.card-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.card {
+    position: relative;
+  }
+
+  .card .card-img {
+    position: relative;
+  }
+ 
+  .card .card-img img {
+    width: 100%;
+  }
+
+  .card .social-icons {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+
+  .card:hover .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card .social-icons .icon-link {
+    display: inline-block;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px;
+  }
