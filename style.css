@@ -303,4 +303,28 @@ width: 100%;
     border: none;
 }
 
+
+/* section-8 */
+.section-8{
+    padding-top: 5%;
+    background-color: #eff2f9;
+}
+.service-list,.quick-list  {
+    margin-left: 10%;
+    
+}
+.contact-list{
+    margin-left: 15%;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: #6a7c92;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-icons{
+    
+}
+
   
