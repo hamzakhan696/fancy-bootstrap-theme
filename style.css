@@ -9,11 +9,12 @@ body{
 
 /* navbar css */
 .navbar {
- 
-  position: sticky;
-  top: 0;
-  z-index: 20;
-}
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: #fff;
+  padding: 10px 40px;
+  }
 .nav-link{
     font-size: 20px;
     color: #333 !important;
@@ -26,7 +27,7 @@ body{
 
 .slider-container {
     position: relative;
-    height: 600px;
+    height: 700px;
     overflow: hidden;
      z-index: 10
 }
