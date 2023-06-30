@@ -8,6 +8,12 @@ body{
 }
 
 /* navbar css */
+.navbar {
+ 
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
 .nav-link{
     font-size: 20px;
     color: #333 !important;
@@ -15,17 +21,14 @@ body{
 .navbar-nav .nav-item a.active,a:hover {
     color: #3763eb !important;
 }
-#navbar{
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 10;
-}
+
 /* slider */
 
 .slider-container {
     position: relative;
     height: 600px;
     overflow: hidden;
+     z-index: 10
 }
 
 .slider-item {
@@ -243,6 +246,24 @@ p{
     padding: 8px;
   }
 
+/* section-5 */
+.section-5{
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+ /* Change image color */
+ .carousel-item img {
+  opacity: .3;
+}
+
+/* hovar image */
+.carousel-item img:hover{
+  opacity: 1;
+}
+
+
+
 
 
   /* section-6 */
@@ -323,8 +344,40 @@ width: 100%;
     font-size: 20px;
     font-weight: 400;
 }
-.footer-icons{
-    
+.footer-icons .fa{
+    color: #fff;
+    background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+
+}
+.footer-bottom h5{
+  margin: 0%;
+  padding: 0%;
+}
+.scroll-top .fa{
+  color: #fff;
+  background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
+}
+
+.scroll-top {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9;
+  cursor: pointer;
+}
+.scroll-top a{
+  text-decoration: none;
+}
+.scroll-top i{
+  border-radius: 5%;
+  padding: 12px 18px;
+  border: none;
 }
 
   
