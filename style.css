@@ -80,6 +80,7 @@ body{
     
 }
 
+
 /* section-1 */
 
 .section-title h3{
@@ -330,6 +331,7 @@ width: 100%;
 .section-8{
     padding-top: 5%;
     background-color: #eff2f9;
+    overflow: hidden;
 }
 .service-list,.quick-list  {
     margin-left: 10%;
@@ -381,4 +383,24 @@ width: 100%;
   border: none;
 }
 
-  
+
+/* @media (max-width: 992px) {
+    .carousel-item.active img:nth-child(4) {
+        display: none; /* Hide the fourth image at 992px */
+    }
+}
+
+/* @media (max-width: 768px) {
+    .carousel-item.active img:nth-child(3),
+    .carousel-item.active img:nth-child(4) {
+        display: none; /* Hide the third and fourth images at 768px */
+    }
+}
+
+/* @media (max-width: 465px) {
+    .carousel-item.active img:nth-child(2),
+    .carousel-item.active img:nth-child(3),
+    .carousel-item.active img:nth-child(4) {
+        display: none; /* Hide the second, third, and fourth images at 465px */
+    }
+} */ */ */
