@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fancy</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
@@ -26,22 +27,22 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-Nav">
                     <ul class="navbar-nav">
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="" class="nav-link active">Home</a>
                         </li>
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="#about" class="nav-link">About</a>
                         </li>
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="#service" class="nav-link">Services</a>
                         </li>
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="" class="nav-link">Portfolio</a>
                         </li>
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="#team" class="nav-link">Team</a>
                         </li>
-                        <li class="nav-item m-2">
+                        <li class="nav-item m-3">
                             <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
@@ -54,6 +55,7 @@
     </header>
 
     <!-- slider-section--->
+    <div class="section-slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
             
         <div class="carousel-inner">
@@ -136,11 +138,11 @@
                         </div>
 
                     </div>
-
+                </div>
                     <div class="section-2" id="about">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-xl-6 col-lg-6">
                                     <div class="about-us-img">
                                         <img src="images/about-us-pic.png" alt="about us image" width="100%">
                                         <div class="about-experience">
@@ -149,13 +151,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-xl-6 col-lg-6">
                                     <div class="about-us-content">
                                     <h3 class="main-heading"> About us </h3>
                                     <h2 class="heading-about-1">Built-With Boostrap 5, a New Experiance</h2>
                                     <p class="para-about">We Crafted an awesome design library that is robust and intuitive to use. No matter you're building a business presentation websit or a complex web application our design</p>
-
-                                   <div class="d-flex flex-row">
+                                
+                                   <div class="d-sm-flex flex-sm-row">
                                     <div class="heading-about-30k">
                                         <h1>30k</h1>
                                         <h3>Happy Client</h3>
@@ -371,7 +373,7 @@
                     <div class="section-6">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-12">
                                     <div class="card card-section6">
                                     <div class="contact-content d-flex">
                                         <div class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
@@ -400,8 +402,8 @@
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card card-form">
+                                <div class="col-lg-8 col-12">
+                                    <div class="card card-form ">
                                         <div class="div text-center">
                                             <div class="section-title">
                                                 <h3>Get in Touch</h3>
@@ -412,23 +414,23 @@
                                             </p>
                                         </div>
                                         <form>
-                                            <div class="form-row">
+                                            <div class="form-row mt-4">
                                               <div class="col-md-6 col-sm-12">
-                                                <input type="text" class="form-control" placeholder="First name">
+                                                <input type="text" class="form-control  mb-4" placeholder="First name">
                                               </div>
                                               <div class="col-md-6 col-sm-12">
-                                                <input type="text" class="form-control" placeholder="Last name">
-                                              </div>
-                                            </div>
-                                            <div class="form-row mt-3">
-                                              <div class="col-md-6 col-sm-12">
-                                                <input type="text" class="form-control" placeholder="Phone">
-                                              </div>
-                                              <div class="col-md-6 col-sm-12">
-                                                <input type="text" class="form-control" placeholder="Subject">
+                                                <input type="text" class="form-control mb-4" placeholder="Last name">
                                               </div>
                                             </div>
-                                            <div class="form-group mt-4">
+                                            <div class="form-row ">
+                                              <div class="col-md-6 col-sm-12">
+                                                <input type="text" class="form-control mb-4 form-rounded" placeholder="Phone">
+                                              </div>
+                                              <div class="col-md-6 col-sm-12">
+                                                <input type="text" class="form-control mb-4" placeholder="Subject">
+                                              </div>
+                                            </div>
+                                            <div class="form-group mt-4" style="border-radius: 20px;">
                                               <textarea class="form-control" placeholder="Type Message" id="exampleFormControlTextarea1" rows="3"></textarea>
                                             </div>
                                             <div class="col-md-12">
@@ -448,20 +450,18 @@
                     <div class="section-7">
                         <div class="container">
                             <div class="row ">
-                                <div class="col-md-6">
+                                <div class="col-xl-6 col-lg-12">
                                     <div class="newsletter-heading">
                                         <h4>Subscribe</h4>
                                         <h1>Subscribe our Newsletter</h1>    
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="input-group">
-                                      <input type="email" class="form-control" placeholder="Your Email">
-                                      <div class="input-group-append">
-                                        <span class="input-group-text">
-                                          <i class="fa fa-telegram" aria-hidden="true"></i>
+                                <div class="col-xl-6 col-lg-12">
+                                    <div class="input-group mt-4">
+                                      <input type="email" class="form-control " placeholder="Your Email">
+                                      <span class="input-group-text bg-white" >
+                                          <i class="fa fa-paper-plane" aria-hidden="true"></i>
                                         </span>
-                                      </div>
                                     </div>
                                   </div>
                             </div>
@@ -474,7 +474,7 @@
                         <footer>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="footer-logo mb-4">
                                             <img src="images/logo.svg" alt="footer-logo">
                                         </div>
@@ -482,12 +482,10 @@
                                             <p>We Crafted an awesome design library that is robust and intuitive to use. No matter you're building a business presentation website.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
-                                        <div class="row">
-                                            <div class="col-lg-4">
-                                                <div class="quick-list mt-5">
+                                    <div class="col-md-6 col-lg-4 col-xl-3 ">
+                                                <div class="quick-list mt-3">
                                                     <h3 class="quicklink-heading">Quick Link</h3>
-                                                    <ul class="custom-bullet-list">
+                                                    <ul class="custom-bullet-list mt-4">
                                                         <li class="footer-link mb-2"><a href="">Home</a></li>
                                                         <li class="footer-link mb-2"><a href="">About</a></li>
                                                         <li class="footer-link mb-2"><a href="">Service</a></li>
@@ -495,20 +493,20 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="service-list mt-5">
+                                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                                <div class="service-list mt-3">
                                                     <h3 class="Service-heading">Service</h3>
                                                     
-                                                    <ul class="custom-bullet-list">
+                                                    <ul class="custom-bullet-list mt-4">
                                                         <li class="footer-link mb-2"><a href="">Marketing</a></li>
                                                         <li class="footer-link mb-2"><a href="">Branding</a></li>
-                                                        <li class="footer-link mb-2"><a href="">Web designing</a></li>
-                                                        <li class="footer-link mb-2"><a href="">Graphic design</a></li>
+                                                        <li class="footer-link mb-2"><a href="">Web Designing</a></li>
+                                                        <li class="footer-link mb-2"><a href="">Graphic Design</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="contact-list mt-5">
+                                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                                <div class="contact-list mt-3">
                                                     <h3 class="contact-heading">Contact</h3>
                                                     <ul class="custom-bullet-list">
                                                         <li class="footer-link mb-2"><a href="">+00983467367234</a></li>
@@ -517,26 +515,24 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 <hr>
                                 <div class="row">
-                                    <div class="col-12">
-                                        <div class="footer-bottom d-flex justify-content-end mb-3">
-                                            <h5 style="color: #6a7c92;">Template by Hamza</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
+                                           
+                                    <div class="col-md-6">
                                         <div class="footer-icons pb-3">
                                             <i class="fa fa-facebook icon-link" aria-hidden="true"></i>
                                             <i class="fa fa-twitter icon-link" aria-hidden="true"></i>
                                             <i class="fa fa-instagram icon-link" aria-hidden="true"></i>
                                             <i class="fa fa-linkedin icon-link" aria-hidden="true"></i>
                                         </div>
+                                    </div> 
+                                    <div class="col-md-6">
+                                        <div class="footer-bottom d-flex justify-content-end mt-3 mb-3">
+                                            <h5 style="color: #6a7c92;">Template by Hamza</h5>
+                                        </div>
                                     </div>
+                                             
                                 </div>
                             </div>
                         </footer>
