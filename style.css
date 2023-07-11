@@ -6,6 +6,10 @@ body{
     background-color: white;
     font-family: 'poppins sans-sarif';
 }
+h3,p{
+  font-family: "Poppins",sans-serif;
+}
+
 
 /* navbar css */
 .navbar {
@@ -15,10 +19,11 @@ body{
   background: #fff;
   padding: 12px 80px;
   }
+  
 .nav-link{
     font-size: 19px;
     color: #333 !important;
-}
+} 
 .navbar-nav .nav-item a.active,a:hover {
     color: #3763eb !important;
 }
@@ -28,6 +33,23 @@ body{
 }
 .nav-item {
   margin-bottom: 2px !important;
+}
+.navbar-toggler{
+  color: #333 !important;
+}
+.navbar span{
+  color: #333;
+}
+.navbar-toggler .navbar-toggler-icon{
+      width: 30px;
+      height: 2px;
+      background-color: #222;
+      display: block;
+      margin: 5px 0;
+      position: relative;
+}
+.navbar-toggler{
+  border: none;
 }
 
 
@@ -79,8 +101,8 @@ body{
     
 }
 .slider-heading{
-    font-size: 40px;
-    font-weight: 1000;
+  font-size: 40px;
+  font-weight: 1000;
 }
 .slider-para{
     font-size: 20px;
@@ -106,8 +128,8 @@ body{
 
 .section-title h3{
     color: #3763eb;
+    font-size: 25px;
     font-weight: 700;
-    margin-bottom: 5px;
 }
 .sub-title h1{
     font-weight: 700;
@@ -221,9 +243,13 @@ p{
     padding-top: 5%;
     padding-bottom: 5%;
   }
+  
   .section-3 .card:hover{
     box-shadow: 0px 0px 30px rgba(215, 224, 252, 0.45);
     transition: all 0.3s ease-out 0s;
+  }
+  .fa-stack-exchange{
+    padding: 20px 23px;
   }
 
   .services-heading h3{
@@ -250,14 +276,18 @@ p{
     font-size: 30px;
     font-weight: 600;
 }
-
+.section-4 .card{
+ 
+}
 
 .card {
     position: relative;
+    border-radius: 20px !important;
   }
 
   .card .card-img {
     position: relative;
+    
   }
  
   .card .card-img img {
@@ -307,6 +337,9 @@ p{
   
   .card:hover .image-overlay {
     opacity: 1;
+  }
+  .section-4 .card {
+    border-radius: 30px 10px 0 0;
   }
 
 /* section-5 */
@@ -397,19 +430,18 @@ width: 100%;
   border-bottom-right-radius: 30px;
   border: none;
 }
-.newsletter-heading{
-    color: #fff;
-}
-/* .newsletter-email input{
-    border-radius: 20px;
-} */
-.section-7 span{
-  border:none;
-}
-.section-7 i{
-    padding: 15px;
+.input-icons i {
+  position: absolute;
+  top: 32%;
+  right: 18px;
+  padding: 15px;
+  font-size: 18px !important;
     color: #fff;
     background: linear-gradient(to top right,#3763eb 0%,#6f58e8 100%);
+
+}
+.newsletter-heading{
+    color: #fff;
 }
 
 
@@ -483,7 +515,15 @@ width: 100%;
   padding: 12px 18px;
   border: none;
 }
-
+.footer-icons i{
+  margin-right: 3px;
+}
+.footer-icons i .fa-facebook{
+  border-radius: 50px;
+}
+.fa-facebook{
+  padding: 20px 23px;
+}
 @media (max-width: 767px){
   .navbar-nav .nav-item a {
       color: #051441;
@@ -532,7 +572,7 @@ width: 100%;
     z-index: 100;
     top: 100%;
     background-color: #fff;
-    width: 70%;
+    width: 83%;
     overflow-y: scroll;
    
 }
@@ -540,7 +580,28 @@ width: 100%;
   margin: 0% !important;
 }
 }
+@media(max-width:768px){
+  .section-3 .card  {
+    margin: 40px 30px;
+}
+} 
+@media(min-width:767px){
+  .Service-heading{
+    margin-left: 0% !important;
+}
+}
 
+@media(min-width:767px){
+  .service-list ul{
+    padding-left: 0%;
+}
+}
+@media (max-width: 767px){
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+}
 
 
 
