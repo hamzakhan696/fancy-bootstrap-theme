@@ -249,6 +249,11 @@ p{
     padding-top: 5%;
     padding-bottom: 5%;
   }
+ 
+
+.card .services-heading, .card .services-para {
+    padding: 0 10px; /* Add some padding to the heading and paragraph */
+}
   
   .section-3 .card:hover{
     box-shadow: 0px 0px 30px rgba(215, 224, 252, 0.45);
@@ -261,7 +266,7 @@ p{
   .services-heading h3{
     font-size: 30px;
     font-weight: 700;
-    line-height: 20px;
+    
     
     }
     .services-icon{
@@ -282,9 +287,7 @@ p{
     font-size: 30px;
     font-weight: 600;
 }
-.section-4 .card{
- 
-}
+
 
 .card {
     position: relative;
@@ -635,6 +638,7 @@ p {
     padding: 15px 65px;
     }
     }
+ 
  
 
   
