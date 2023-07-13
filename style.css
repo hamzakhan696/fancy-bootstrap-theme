@@ -422,9 +422,10 @@ width: 100%;
   }
 
   .form-btn{
+    font-family: "Poppins",sans-serif;
     background: linear-gradient(to top left,#3763eb 0%,#6f58e8 100%);
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     padding: 18px 90px;
     border-radius: 30px;
   }
@@ -628,6 +629,15 @@ p {
     margin: auto;
   }
   }
+
+  @media (max-width: 400px){
+    .form-btn{
+    padding: 15px 65px;
+    }
+    }
+ 
+
+  
 
   
 
