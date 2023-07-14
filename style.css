@@ -14,6 +14,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 
+
 /* navbar css */
 .navbar {
   position: fixed;
@@ -26,6 +27,7 @@ h1,h2,h3,h4,h5,p{
 .nav-link{
     font-size: 17px;
     color: #333 !important;
+    margin-right: 10px;
 } 
 .navbar-nav .nav-item a.active,a:hover {
     color: #3763eb !important;
@@ -36,6 +38,7 @@ h1,h2,h3,h4,h5,p{
 }
 .nav-item {
   margin-bottom: 2px !important;
+ 
 }
 .navbar-toggler{
   color: #333 !important;
@@ -118,6 +121,7 @@ h1,h2,h3,h4,h5,p{
     padding: 14px 40px;
     font-size: 18px;
     color: #fff;
+    font-family: "Poppins", sans-serif;
     
 }
 
@@ -393,7 +397,7 @@ h4{
     box-shadow: none !important;
   }
   .section-6 i{
-    padding: 15px !important;
+    padding: 15px;
   }
 .section-6 .fa{
   font-size: 30px;
@@ -401,6 +405,12 @@ h4{
 
 .address-content,.contact-content,.shedule-content{
     padding: 2%;
+}
+.address-info{
+  margin-left: 5% !important;
+}
+.fa-map-marker{
+  padding: 20px 23px;
 }
   .card-section6{
 padding: 8px;
@@ -431,6 +441,9 @@ width: 100%;
     font-weight: 400;
     padding: 18px 90px;
     border-radius: 30px;
+  }
+  .address-icon i {
+    padding: 19px 24px !important;
   }
   
 
@@ -533,15 +546,20 @@ width: 100%;
   padding: 12px 18px;
   border: none;
 }
-.footer-icons i{
+/* .footer-icons i{
   margin-right: 3px;
-}
-.footer-icons i .fa-facebook{
+} */
+/* .footer-icons i .fa-facebook{
   border-radius: 50px;
-}
+} */
 .fa-facebook{
   padding: 20px 23px;
 }
+ .fa-map-marker{
+  padding: 20px 23px;
+}
+
+
 
 
 @media (max-width: 767px){
@@ -601,7 +619,7 @@ width: 100%;
   margin: 0% !important;
 }
 }
-@media(max-width:768px){
+@media(max-width:983px){
   .section-3 .card  {
     margin: 10px 5px;
 }
