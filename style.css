@@ -35,6 +35,8 @@ h1,h2,h3,h4,h5,p{
 .nav-btn .btn{
   padding: 12px 25px;
   background: linear-gradient(to  right,#3763eb 0%,#6f58e8 100%);
+  font-family: "Poppins", sans-serif;
+  
 }
 .nav-item {
   margin-bottom: 2px !important;
